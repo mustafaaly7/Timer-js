@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
+.main{
+    font-size: 20px;
+    min-height: 300px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 .watch{
     display: flex;
     /* text-align: center; */
@@ -10,13 +21,69 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .timer{
     /* margin: 0 auto; */
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
     width: 50%;
     text-align: center;
-    border: 1px solid green;
+    border: 1px solid green; */
+    /* color: white; */
+
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid rgb(128, 14, 14); */
+    
+height: 150px;
+background-color: black;
+/* color: white; */
+color: rgb(151, 18, 18);
+font-style: italic;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.timer h1{
+    color: white;
+    font-style: italic;
+}
+.buttons{
+    padding: 14px 0px 0px 0px;
+    width: 100%;
+    height: 150px;
+}
+
+.buttons button{
+    font-size: 15px;
+
+    width: 25%;
+    height: 50px;
+    border: 3px solid rgb(128, 14, 14);
+    background-color: black;
+    color: white;
+    font-style: italic;
+   
+}
+.buttons button:hover{
+    background-color: rgb(86, 9, 9);
+    color: black;
+    border: 3px solid black;
+
+}
+
+
+.buttons button:disabled{
+    /* background-color: rgb(81, 13, 13); */
+    /* color: rgb(181, 180, 180); */
+    color:rgb(255, 255, 255) ;
+background-color: rgb(57, 7, 7);
+border: 0px;
+}
+
+.watch h1{
+    color:  white;
 }

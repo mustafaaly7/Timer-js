@@ -24,22 +24,28 @@ function startTimer(){
 
     }if(minute.innerHTML && second.innerHTML == 0){
         clearInterval(interval)
-        alert("stopped")
+        // alert("stopped")
         minute.innerHTML = 0
         second.innerHTML = 0
+        // getData()
+        startbtn.removeAttribute("disabled")
     }
     // ele.setAttribute("disabled","true")
 }
 
 
 
-function start(ele){
-    if(input >= 1){
+function start(){
+   
+    if(input >= 0){
         interval = setInterval(startTimer,1000)
         startbtn.setAttribute("disabled","true")
 
     }else{
         alert("Enter Valid Number")
+        minute.innerHTML = 0
+        second.innerHTML = 0
+        
         return
     }
 
