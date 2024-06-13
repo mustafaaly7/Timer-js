@@ -22,15 +22,16 @@ function startTimer(){
         sec = 59
         sec.innerHTML = sec
 
-    }if(minute.innerHTML && second.innerHTML == 0){
+    }
+    if(minute.innerHTML < 0){
         clearInterval(interval)
-        // alert("stopped")
+        alert("stopped")
         minute.innerHTML = 0
         second.innerHTML = 0
         // getData()
         startbtn.removeAttribute("disabled")
     }
-    // ele.setAttribute("disabled","true")
+    ele.setAttribute("disabled","true")
 }
 
 
