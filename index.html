@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer</title>
+</head>
+<body onload="getData()">
+    <div class="main">
+        <div class="timer">
+            <h1>Timer</h1>
+            <div class="watch">
+                <h1 id="minute">00</h1>
+                <h1>:</h1>
+                <h1 id="second">00</h1>
+            </div>
+            <div>
+                <button onclick="start()" id="startbtn">start</button>
+                <button onclick="stop()">stop</button>
+                <button onclick="reset()">reset</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>

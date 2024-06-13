@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.watch{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid blue;
+}
+.timer{
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    border: 1px solid green;
+}
